@@ -1,5 +1,5 @@
 deps:
-- path: /Users/tanyaparmar/Desktop/data-repo/train_data.csv
+- path: /Users/tanyaparmar/Desktop/data-repo2/train_data.csv
   md5: 6830697ac886892f7ae1ca12b09688be
 md5: 6c66172d7ff81415f5f2cfb7222e7d79
 outs:

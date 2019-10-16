@@ -1,5 +1,5 @@
 deps:
-- path: /Users/tanyaparmar/Desktop/data-repo/test_data.csv
+- path: /Users/tanyaparmar/Desktop/data-repo2/test_data.csv
   md5: c807df8d6d804ab2647fc15c3d40f543
 md5: bea70f91c2eff8f5d05ed5ca450a606e
 outs:
