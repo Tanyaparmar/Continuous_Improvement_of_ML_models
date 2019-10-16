@@ -23,7 +23,7 @@ def train_model():
     # Set a random seed so that we get the same "random" choices when we try to recreate the experiment.
     np.random.seed(42)
 
-    num_samples = 2000
+    num_samples = 4000
     choice = np.random.choice(train_data.shape[0], num_samples, replace=False)
     train_data = train_data[choice, :]
 
