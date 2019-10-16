@@ -1,0 +1,6 @@
+/train_data.csv
+/test_data.csv
+/norm_params.json
+/processed_train_data.npy
+/processed_test_data.npy
+/model.pkl
