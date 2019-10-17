@@ -7,8 +7,7 @@ import numpy as np
 from sklearn.svm import SVC
 from sklearn.multiclass import OneVsRestClassifier
 import time
-import mlflow
-
+mport mlflow
 PARAMS = {
     'epoch_nr': 5,
     'batch_size': 256,
