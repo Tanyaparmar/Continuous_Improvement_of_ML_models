@@ -7,21 +7,6 @@ import numpy as np
 from sklearn.svm import SVC
 from sklearn.multiclass import OneVsRestClassifier
 import time
-import mlflow
-PARAMS = {
-    'epoch_nr': 5,
-    'batch_size': 256,
-    'lr': 0.1,
-    'momentum': 0.9,
-    'use_nesterov': True,
-    'unit_nr': 512,
-    'dropout': 0.25
-}
-
-with mlflow.start_run():
-
-    for name, value in PARAMS.items():
-        mlflow.log_param(name, value)
 
 
 def train_model():

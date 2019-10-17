@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tanyaparmar/Desktop/test-repo/mlruns/0/fe404340c0ac4160835cc35d4c08840c/artifacts
+end_time: 1571319644575
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: fe404340c0ac4160835cc35d4c08840c
+run_uuid: fe404340c0ac4160835cc35d4c08840c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1571319644452
+status: 3
+tags: []
+user_id: tanyaparmar

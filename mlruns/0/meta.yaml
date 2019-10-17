@@ -1,0 +1,4 @@
+artifact_location: file:///Users/tanyaparmar/Desktop/test-repo/mlruns/0
+experiment_id: '0'
+lifecycle_stage: active
+name: Default
