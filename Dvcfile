@@ -1,15 +1,15 @@
 cmd: python code/eval.py
 deps:
-- md5: 3d0ca61b7cdc0d0ed816b334c841d662
+- md5: a5257a91e73920bdd4cafd0f88105b74
   path: data/processed_test_data.npy
-- md5: 5618a5fb1104d6e70e225b0cfbb42914
+- md5: 01673c794a62a9660421adc1f0a69465
   path: data/model.pkl
 - md5: dbda33303321d56e86ac2e95add58bc9
   path: code/eval.py
-md5: 6089e4d3554513a158f7492162c060b3
+md5: db5f49f73c576be771c01adb9918797a
 outs:
 - cache: false
-  md5: 1e7d1841c4f2acf2720e5207ce7507cd
+  md5: 987c60707e246a9ba0d2d7b113d458f8
   metric:
     type: json
     xpath: accuracy
