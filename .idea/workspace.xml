@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84c8081a-3a93-4ad0-8baa-f7951098ae70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/featurization.dvc" beforeDir="false" afterPath="$PROJECT_DIR$/featurization.dvc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dvcfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dvcfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metrics/eval.json" beforeDir="false" afterPath="$PROJECT_DIR$/metrics/eval.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metrics/train_metric.json" beforeDir="false" afterPath="$PROJECT_DIR$/metrics/train_metric.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data.csv.dvc" beforeDir="false" afterPath="$PROJECT_DIR$/train_data.csv.dvc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training.dvc" beforeDir="false" afterPath="$PROJECT_DIR$/training.dvc" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
