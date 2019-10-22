@@ -37,10 +37,10 @@ def eval_model():
 
     with mlflow.start_run() as run:
 
+        mlflow.log_artifact("version.txt")
         #track the accuracy and quality of the model
         for epoch in range(0, 3):
             mlflow.log_metric(key="quality", value=2*epoch, step=epoch)
-            mlflow.set_tag("metric",metrics)
 
         for metric in metrics:
             mlflow.log_metric(metric, metrics[metric])
@@ -51,10 +51,6 @@ def eval_model():
         #log model parameters
         for key in params:
             mlflow.log_param(key, params[key])
-
-        with mlflow.start(auto_commit="tracked revert"):
-            ## run experiment
-            mlflow.log_artifacts("./")
 
 
     mlflow.end_run()
