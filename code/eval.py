@@ -5,6 +5,8 @@ import pickle
 import json
 import numpy as np
 from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_auc_score
+import os
+import mlflow
 
 def eval_model():
     # Load test data
@@ -32,6 +34,21 @@ def eval_model():
     with open('./metrics/eval.json', 'w') as f:
         json.dump(metrics, f)
     print("done.")
+
+    with mlflow.start_run():
+        mlflow.tracking.get_tracking_uri()
+        mlflow.set_tag("metric",metrics)
+        #model parameters
+        params = { 'seed': 42, 'num_sample': 4000}
+
+        #log model parameters
+        for key in params:
+            mlflow.log_param(key, params[key])
+
+        for metric in metrics:
+            mlflow.log_metric(metric, metrics[metric])
+
+    mlflow.end_run()
 
 if __name__ == '__main__':
     eval_model()

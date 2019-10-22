@@ -8,7 +8,6 @@ from sklearn.svm import SVC
 from sklearn.multiclass import OneVsRestClassifier
 import time
 
-
 def train_model():
     # Measure training time
     start_time = time.time()
@@ -54,3 +53,4 @@ def train_model():
 
 if __name__ == '__main__':
     train_model()
+
