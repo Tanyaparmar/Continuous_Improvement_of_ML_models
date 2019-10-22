@@ -35,9 +35,16 @@ def eval_model():
         json.dump(metrics, f)
     print("done.")
 
-    with mlflow.start_run():
-        mlflow.tracking.get_tracking_uri()
-        mlflow.set_tag("metric",metrics)
+    with mlflow.start_run() as run:
+
+        #track the accuracy and quality of the model
+        for epoch in range(0, 3):
+            mlflow.log_metric(key="quality", value=2*epoch, step=epoch)
+            mlflow.set_tag("metric",metrics)
+
+        for metric in metrics:
+            mlflow.log_metric(metric, metrics[metric])
+
         #model parameters
         params = { 'seed': 42, 'num_sample': 4000}
 
@@ -45,8 +52,10 @@ def eval_model():
         for key in params:
             mlflow.log_param(key, params[key])
 
-        for metric in metrics:
-            mlflow.log_metric(metric, metrics[metric])
+        with mlflow.start(auto_commit="tracked revert"):
+            ## run experiment
+            mlflow.log_artifacts("./")
+
 
     mlflow.end_run()
 

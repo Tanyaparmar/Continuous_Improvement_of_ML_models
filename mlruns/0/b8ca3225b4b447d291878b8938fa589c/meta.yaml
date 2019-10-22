@@ -2,7 +2,7 @@ artifact_uri: file:///Users/tanyaparmar/Desktop/test-repo/mlruns/0/b8ca3225b4b44
 end_time: 1571660809367
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 name: ''
 run_id: b8ca3225b4b447d291878b8938fa589c
 run_uuid: b8ca3225b4b447d291878b8938fa589c
