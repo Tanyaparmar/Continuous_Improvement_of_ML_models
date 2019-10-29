@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/dff5273d483d464fa40a684524dc7391/artifacts
+end_time: 1572352256008
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: dff5273d483d464fa40a684524dc7391
+run_uuid: dff5273d483d464fa40a684524dc7391
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1572352255887
+status: 3
+tags: []
+user_id: tanyaparmar
