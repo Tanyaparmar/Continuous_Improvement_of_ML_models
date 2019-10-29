@@ -1,18 +1,18 @@
 cmd: python code/train_model.py
 deps:
-- md5: a5181a4acde6d22399a45a6f6b2fad09
+- md5: 023867207c223bba942d8d8816784488
   path: data/processed_train_data.npy
 - md5: ec18c66219f99408a74f5e9a94f5df1e
   path: code/train_model.py
-md5: 50df3ba3b168ef32f47a4e5edeadc38f
+md5: fa666eca1d1e65f5d130f270a34b95a0
 outs:
 - cache: true
-  md5: 6e83106a4f096787cd707fa6997521b7
+  md5: 06a1ef9805c24a75326bd42c0ef74abf
   metric: false
   path: data/model.pkl
   persist: false
 - cache: false
-  md5: f85fd7ea0a3dc2f1c479c1768baa6607
+  md5: 095651952966d6db4e9715eeb9623d81
   metric:
     type: json
     xpath: training_time
