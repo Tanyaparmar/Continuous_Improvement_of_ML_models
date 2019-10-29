@@ -1,25 +1,25 @@
 cmd: python code/featurization.py
 deps:
-- md5: 9fb79cb753d366cca3ccf48c8de7cf19
+- md5: 8b1e8101fc1fc7e24174537479f2c9c4
   path: data/train_data.csv
 - md5: c807df8d6d804ab2647fc15c3d40f543
   path: data/test_data.csv
 - md5: a1219bc70ee2ecad2c8e23f2705bf172
   path: code/featurization.py
-md5: 15d3e3eac1f4bb9dfab46d9a3f8019c6
+md5: eaf1c8a977e63e471fb7a8259181ed1a
 outs:
 - cache: true
-  md5: d0a9195d3f5b575e6e6b130905da62f0
+  md5: bd85a9393aaa705edb92addb7ce00e47
   metric: false
   path: data/norm_params.json
   persist: false
 - cache: true
-  md5: bfd0a7fbb03852a9e5449224bd9dbc58
+  md5: 777561474cffa330c3aa481242f43b2e
   metric: false
   path: data/processed_train_data.npy
   persist: false
 - cache: true
-  md5: 3d0ca61b7cdc0d0ed816b334c841d662
+  md5: 6e9a3ca60bba100954d61008907576ce
   metric: false
   path: data/processed_test_data.npy
   persist: false
