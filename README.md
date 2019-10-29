@@ -1,5 +1,5 @@
 # mnist-dvc
 Data version control flow example
 
-small changes to trigger pipelinesss.
+small changes to trigger pipelines.
 # Test-repo
